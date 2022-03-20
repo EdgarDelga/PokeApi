@@ -1,0 +1,155 @@
+
+
+.cuadro{
+
+display: flex;
+justify-content: start;
+padding-left: 15rem;
+
+
+}
+
+.titulo1{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 3rem;
+    color: rgb(196, 73, 73);
+}
+
+.titulo2{
+    font-family: 'Secular One', sans-serif;
+    font-size: 2rem;
+}
+.titulo3{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 3rem;
+}
+
+.color{
+    background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ff0808' fill-opacity='0.14'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.buscador{
+    font-family: 'Fredoka', sans-serif; 
+    width: auto;
+    height: auto;
+    width: 25rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border: none;
+    outline:  none;
+    border-radius: 10px;
+    background-color:#fefdff;
+    font-size: 1.5rem;
+    
+}
+
+.boton{
+    margin-top: 1rem;
+    color: #ffffff;
+    background-color: #4368e2;
+    border-radius: .5rem;
+    border: none;
+    padding: 1rem;
+    font-size: .8rem;
+}
+
+.boton:hover{
+    background-color: #2d48a0;
+}
+
+.boton:active{
+    background-color: #04113a;
+}
+.orden{
+   width: 120%;
+   height: 70%;
+   margin-top: 2rem;
+   padding: 4%;
+   background-color: #ffffff;
+   border-radius: 1rem;
+   box-shadow:.2rem .2rem .2rem #878588;
+   display: flex;
+   justify-content: start;
+}
+
+.pokeImg{
+margin-right: 2rem;
+}
+
+.todo{
+    display: flex;
+justify-content: center;
+
+}
+
+.orden3{
+    display:flex ;
+}
+
+.info1{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    font-family: 'Fredoka', sans-serif; 
+    font-size: 2rem;
+}
+
+.img3{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    filter: contrast(1) brightness(100%);
+}
+.orden2{
+    margin-top: 9rem;
+    font-size: 2rem;
+    font-family: 'Fredoka', sans-serif; 
+    margin-left: 7rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .cuadro{
+
+        display: flex;
+        justify-content: start;
+        padding-left: 1rem;
+        
+        
+        }
+
+}
+
+@media only screen and (max-width: 1364px) {
+
+    .cuadro{
+
+        display: flex;
+        justify-content: start;
+        padding-left: 1rem;
+        
+        
+        }
+        .orden{
+            width: 100%;
+
+
+         }
+
+}
+
+@media only screen and (max-width: 817px) {
+
+
+    .orden{
+        width: 100%;
+        height: 100%;
+        
+     }
+     .orden2{
+        display: flexbox;
+        justify-content: center;
+        position: absolute;
+        padding-top: 19rem;
+        padding-left: 5rem;
+    }
+
+}
