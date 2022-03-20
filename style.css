@@ -153,3 +153,13 @@ justify-content: center;
     }
 
 }
+
+
+@media only screen and (max-width: 600px) {
+
+     .orden2{
+        padding-top: 28rem;
+        padding-left: 5rem;
+    }
+
+}
